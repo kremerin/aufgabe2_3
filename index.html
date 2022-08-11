@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Aufgabe 2_3</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Register form</legend>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input type="text" name="surname" id="surname">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio"name="gender" id="female">
+            </div>
+            <div>
+                <label for="upload">Picture</label>
+                <input type="file" name="upload" id="upload">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <select>
+                    <option>Germany</option>
+                    <option>Spain</option>
+                    <option>France</option>
+                </select>
+            </div>
+            <div>
+                <label for="language">Prefered languages</label>
+                <select multiple="multiple"> 
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JS</option>
+                    <option>React</option>
+                    <option>Python</option>
+                </select>
+                <span>(To choose more than one use cmd key)</span>
+            </div>
+            <div>
+                <label for="activity">Field of activity</label>
+                <input type="radio" name="it" id="it">
+                <label for="it">IT</label>
+                <input type="radio" name="design" id="design">
+                <label for="it">Design</label>
+                <input type="radio" name="other" id="other">
+                <label for="it">Other</label>
+            </div>
+            <div>
+                <input type="submit" value="Submit" class="btn">
+                <input type="reset" value="Cancel" class="btn">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
